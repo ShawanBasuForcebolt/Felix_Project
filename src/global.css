@@ -1,0 +1,164 @@
+
+.leftarrow {
+  position: absolute;
+  cursor: pointer;
+  background: #fbfbfb;
+  border-radius: 8px;
+  border: 1px solid white;
+  margin-left: 150px;
+  font-size: 24px;
+  padding: 7px;
+  margin-top: -7px;
+}
+.textpageOne {
+  position: absolute;
+  width: 372px;
+  height: 28px;
+  left: 534px;
+  top: 25px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #4d4d4d;
+}
+.Schoolingo {
+  position: absolute;
+  width: 176px;
+  height: 99px;
+  left: 1144px;
+  top:-1px;
+}
+ .photoicon {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  left: 150px;
+  top: 102px;
+}
+.cropimage {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  left: 511px;
+  top: 102px;
+}
+.cropdocument {
+  position: absolute;
+  width: 53.16px;
+  height: 54px;
+  left: 873px;
+  top: 102px;
+}
+ .shoppingbasket {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  left: 1236px;
+  top: 102px;
+}
+
+.eclipse {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 148px;
+  top: 188px;
+}
+
+ .eclipse2 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 508px;
+  top: 188px;
+}
+ .eclipse3 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 870px;
+  top: 188px;
+}
+.eclipse4 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 1233px;
+  top: 188px;
+}
+ .greybar {
+  position: absolute;
+  width: 1108px;
+  height: 6px;
+  left: 184px;
+  top: 218px;
+  background: #d6d8e1;
+}
+
+.leftbox {
+  position: absolute;
+  width: 558px;
+  height: 538px;
+  left: 147px;
+  top: 304px;
+
+  background: #ffffff;
+
+  border: 1px solid #d6d8e1;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.rightbox {
+  position: absolute;
+  width: 558px;
+  height: 538px;
+  left: 735px;
+  top: 304px;
+
+  background: #ffffff;
+
+  border: 1px solid #d6d8e1;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.box {
+  position: relative;
+  margin: 10px 240px;
+  max-width: 100%;
+  max-height: 100%;
+
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+
+@media only screen and (max-width: 480px){
+  .box {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    background: #ffffff;
+    border-radius: 8px;
+    left: -120px;
+  }
+  .leftarrow {
+      position: relative;
+      cursor: pointer;
+      background: #e6dddd;
+      border-radius: 8px;
+      border: 1px solid white;
+      margin-left: 10px;
+      font-size: 44px;
+      margin-top: -7px;
+      
+  }
+}
+.loadingflowcwnew3 {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 1249px;
+  top: 205px;
+}

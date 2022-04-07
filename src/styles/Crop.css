@@ -1,0 +1,75 @@
+.rectanglebar2 {
+  position: absolute;
+  width: 331px;
+  height: 6px;
+  left: 184px;
+  top: 218px;
+background: linear-gradient(90deg, #4174D8 4.08%, #5D6174 100.91%);
+}
+.tick {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 164px;
+  top: 205px;
+}
+.loadingflowcwnew {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 524px;
+  top: 204px;
+}
+.eclipseA {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 108px;
+  top: 48px;
+}
+.eclipseB {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 430px;
+  top: 48px;
+}
+.eclipseC {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 430px;
+  top: 465px;
+}
+.eclipseD {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 108px;
+  top: 465px;
+}
+.image-crop {
+  position: absolute;
+  left: 114px;
+  top: 58px
+  
+}
+
+.continuebutton {
+  position: absolute;
+  width: 276px;
+  height: 58px;
+  margin: 894px 46px 55px 292px;
+  left: 0px;
+  top: -20px;
+  background:#4174D8;
+  border: 1px solid white;
+  border-radius: 4px;
+  color:white;
+}
+.continuebutton:hover {
+  cursor: pointer;
+  background-color: #204ca3;
+  font-weight: 500;
+  font-size: 15px;
+}

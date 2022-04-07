@@ -1,0 +1,132 @@
+.tick2{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 164px;
+    top: 205px;
+}
+.tick3{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 524px;
+    top: 205px;
+}
+.loadingflowcwnew2{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 886px;
+    top: 205px;
+}
+.greenbar{
+position: absolute;
+width: 325px;
+height: 6px;
+left: 184px;
+top: 245px;
+}
+.greenbar2{
+    position: absolute;
+    width: 304px;
+    height: 6px;
+    left: 567px;
+    top: 218px;
+background: linear-gradient(90deg, #4174D8 4.08%, #5D6174 100.91%);
+}
+.greybar2{
+position: absolute;
+width: 314px;
+height: 6px;
+left: 930px;
+top: 245px;
+background: #D6D8E1;
+}
+.table-form ul {margin: 0;padding: 0;}
+.btn-wrap span {padding-left: 10px;}
+.btn-wrap .anticon.anticon-delete svg {fill: #E31010}
+.btn-wrap .anticon.anticon-edit svg {fill: #4174D8}
+.table-form ul li  > span {color: #5D6174}
+.table-form ul li {
+    list-style: none;
+    border-bottom: 1px solid #D6D8E1;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.addtobasketbutton {
+    position: absolute;
+    width: 276px;
+    height: 58px;
+    margin: 894px 46px 55px 238px;
+    left: 656px;
+    top: -20px;
+    background: #4174D8;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+}
+.addtobasketbutton:hover {
+    cursor: pointer;
+    background-color: #204ca3;
+    font-weight: 500;
+    font-size: 15px;
+}
+/* .table{
+    position: absolute;
+    width: 376px;
+    height: 358px;
+    left: 826px;
+    top: 450px
+} */
+.table-form {
+    padding: 0 30px;
+}
+
+table, th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    text-align: center;
+}
+.listheader .anticon-plus-circle svg path:first-child {color: #fff !important;}
+.listheader .anticon-plus-circle svg path {color: #4174D8}
+.listheader .anticon-plus-circle svg {
+    background: #4174D8;
+    border-radius: 50%;
+}
+.listheader{
+    padding:  0 30px;;
+    position: relative;
+    background: rgba(214, 216, 225, 0.3);
+    border-radius: 8px 8px 0px 0px;
+    border-bottom: 1px solid #D6D8E1;
+}
+.listtext{
+ font-weight: 600;
+ font-style: normal;
+ color: #5D6174;
+ font-family: "Roboto", sans-serif;
+font-size: 16px;
+line-height: 60px;
+}
+.plusicon{
+    position: relative;
+    background: #4174D8;
+    color: white;
+    border: 0px solid white ;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.add_new_item {
+    padding-left: 7px;
+    color: #4174D8;
+    border: 1px solid rgba(214, 216, 225, 0.3);
+    border-radius: 5px;
+    background: rgba(214, 216, 225, 0.3);
+}
+
+
+

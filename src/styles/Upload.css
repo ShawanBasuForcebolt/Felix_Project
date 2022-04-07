@@ -1,0 +1,139 @@
+.dragfile {
+  font-family: "Roboto",sans-serif;
+  font-style:italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5d6174;
+}
+.btn-wrap-filechoose {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.takepicturebutton {
+  min-width: auto;
+  width: 220px;
+  height: 58px;
+  background-color: #4174D8;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+    font-size: 15px;
+}
+.choosefilebutton:hover {
+  cursor: pointer;
+  background-color: #204ca3;
+  font-weight: 500;
+
+}
+/* .btn-wrap-filechoose label  span {display: none !important;}
+.btn-wrap-filechoose label  svg {display: none !important;}
+.btn-wrap-filechoose label {
+  margin-right: 25px;
+  min-width: auto;
+  width: 220px;
+  height: 58px;
+  background-color: #4174D8;
+    border: 1px solid white;
+    border-radius: 4px;
+} */
+.btn-wrap-filechoose:hover{
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+.img-upload-wrap  [type="file"] {
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+.img-upload-wrap [type="file"]:hover + label{
+  background: #204ca3;
+}
+.img-upload-wrap [type="file"] + label {
+  background: #4174D8;
+    width: 220px;
+    height: 58px;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      font-size: 15px;
+      cursor: pointer;
+}
+
+.img-upload-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.takepicturebutton:hover{
+  cursor: pointer;
+  background-color: #204ca3;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.dragbutton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.choosefilebutton:hover{
+  cursor: pointer;
+  background-color: #204ca3;
+  font-weight: 500;
+  font-size: 15px;
+}
+.drag-drop {
+  border-radius: 13px;
+  border: 1px solid white;
+  background-color: white;
+}
+.rectanglebar1 {
+  position: absolute;
+  width: 331px;
+  height: 6px;
+  left: 184px;
+  top: 218px;
+
+  background: linear-gradient(
+    90deg,
+    #5d6174 4.08%,
+    rgba(209, 210, 215, 0) 100.91%
+  );
+}
+.loadingflowcw {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 164px;
+  top: 205px;
+}
+.nodocumentsicon {
+  position: absolute;
+  width: 72px;
+  height: 96px;
+  margin: 177px 265px 243px 265px;
+
+}
+
+.nodocumenttext {
+  position: inherit;
+  width: 107px;
+  margin-left: -18px;
+  margin-top: 20px;
+  font-family: "Roboto",sans-serif;
+    font-weight: 400;
+  font-size: 16px;
+  
+  color: #d6d8e1;
+}
